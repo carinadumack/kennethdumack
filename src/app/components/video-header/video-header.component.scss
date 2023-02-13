@@ -1,0 +1,23 @@
+:host {
+  position: relative;
+
+  .background-video {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+
+  .text {
+    position: absolute;
+    width: 100%;
+    top: 20%;
+  }
+
+
+  @media (max-width: 750px) {
+    .background-video {
+      display: none;
+    }
+  }
+}

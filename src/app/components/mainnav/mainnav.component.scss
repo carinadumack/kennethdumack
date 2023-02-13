@@ -2,4 +2,7 @@
   display: block;
   position: static;
   height: 59px;
+  .nav-link, .link {
+    cursor: pointer;
+  }
 }

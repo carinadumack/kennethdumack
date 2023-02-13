@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './components/header/header.component';
 import { MainnavComponent } from './components/mainnav/mainnav.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { TeasersComponent } from './components/teasers/teasers.component';
@@ -15,11 +14,14 @@ import { HomeComponent } from './pages/home/home.component';
 import { WorkgroupComponent } from './pages/workgroup/workgroup.component';
 import { NewsComponent } from './components/news/news.component';
 import { TeamComponent } from './components/team/team.component';
+import { ProtistologyComponent } from './pages/detail-protistology/protistology/protistology.component';
+import {VideoHeaderComponent} from "./components/video-header/video-header.component";
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
+    VideoHeaderComponent,
     MainnavComponent,
     FooterComponent,
     TeasersComponent,
@@ -30,7 +32,9 @@ import { TeamComponent } from './components/team/team.component';
     HomeComponent,
     WorkgroupComponent,
     NewsComponent,
-    TeamComponent
+    TeamComponent,
+    ProtistologyComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
