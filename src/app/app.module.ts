@@ -17,6 +17,8 @@ import { TeamComponent } from './components/team/team.component';
 import { ProtistologyComponent } from './pages/detail-protistology/protistology/protistology.component';
 import {VideoHeaderComponent} from "./components/video-header/video-header.component";
 import { HeaderComponent } from './components/header/header.component';
+import { WastewaterTreatmentComponent } from './pages/detail-wastewater-treatment/wastewater-treatment/wastewater-treatment.component';
+import { SoilBiologyComponent } from './pages/detail-soil-biology/soil-biology/soil-biology.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +36,9 @@ import { HeaderComponent } from './components/header/header.component';
     NewsComponent,
     TeamComponent,
     ProtistologyComponent,
-    HeaderComponent
+    HeaderComponent,
+    WastewaterTreatmentComponent,
+    SoilBiologyComponent,
   ],
   imports: [
     BrowserModule,
